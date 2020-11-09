@@ -1,0 +1,27 @@
+<!DOOCTYPE html>
+<HTML>
+	<head>
+		<title>Company Name</title>
+		<link rel="stylesheet" href="website.css">
+	</head>
+	<body>
+
+		<ul>
+		  <li><a href=# class="active">Home</a></li>
+		  <li><a href=#>Shop</a></li>
+		  <li><a href=#>Contact us</a></li>
+		  <li><a href=#>About us</a></li>
+		</ul>
+		<br><br>
+		<table class = "opener">
+			<tr>
+				<td width = "40%" style="text-align:right;">
+					<h1>Company Name<h1>
+				</td><td style="text-align:left;">
+					<img src = "logo.png" width="50">
+				</td><td>
+					<h2>Tag Line</h2>
+		</table>
+	
+	</body>
+</HTML>
