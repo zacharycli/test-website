@@ -1,0 +1,90 @@
+{
+    "news": [
+        {
+            "image": "news/f1inschools.jpg",
+            "title": "F1 in Schools Contest",
+            "smallText": "Competition Launch - We have entered into F1 for schools.",
+            "fullText": "We are pleased to announce that we have entered the F1 in schools competition. In this competition, we design and manufacture a miniature Formula 1 car. We compete with other teams to see which team's car can travel a short distance the fastest! An integral part of the competition is acquiring sponsors, so if you would like to help us on our journey, please contact us!",
+            "hasExpandedImage": false
+        },
+        {
+            "image": "news/wall res.png",
+            "title": "Hugh wins car design",
+            "smallText": "In a friendly competition among the team, Hugh's had the best drag coefficient.",
+            "fullText": "Hugh's innovative design, after being tested using Computational Fluid Dynamics, defeated the other designs submitted by the rest of the team. Hugh stated: \"As I designed the car, I focused on the airflow and how I could try to reduce drag as much as possible. This lead to a streamlined design which took advantage of ground effect.\"",
+            "hasExpandedImage": true,
+            "expandedImage": "news/shiny.png",
+            "hasCaption": true,
+            "caption": "A render of the design using Fusion 360, by Hugh Anstee",
+            "size": ""
+        },
+        {
+            "image": "news/py.png",
+            "title": "Algorithm developed",
+            "smallText": "Algorithm Developed - Zachary wrote an algorithm to calculate time to travel 20 metres assuming constant thrust!",
+            "fullText": "\"I wrote an algorithm that allows us to select a couple of possible parameters for our car, and alter them. The time taken to travel the track distance of 20m is on the y-axis, compared against the values of each parameter. The algorithm works by calculating the drag force on the car, comparing it to the thrust, and calculating overall acceleration. The program then takes this, multiplies by 0.001, and adds it to velocity. Then it multiplies the velocity by 0.001 and adds it to displacement. The 0.001 represents the portion of seconds simulated by each calculation. Because the acceleration varies, the smaller the value, the higher the precision. In future, I plan to improve the algorithm by giving it the capability to simulate the interplay between two changing parameters and to include a realistic thrust profile. Currently, I assume a continuous thrust of 10N, but this is unrealistic. Data for the canister is not readily available online, so I will likely use an approximation centred around rocketry.\"",
+            "hasExpandedImage": true,
+            "expandedImage": "news/graph.png",
+            "hasCaption": true,
+            "caption": "Algorithm, graph by Zachary Cliff",
+            "size": "lg"
+        }
+    ],
+    "about": {
+        "title": "About us",
+        "text": "We are a STEM team from <a href=\"https://www.crgs.co.uk\">Colchester Royal Grammar School</a> made up of six Year 12 students. We are an experienced team, with highlights at the National and International Finals of the <a href=\"https://www.firstlegoleague.org\">Lego League</a> competition. This year, we are competing in multiple STEM competitions, including <a href=\"https://www.f1inschools.co.uk\">F1 in Schools</a> and <a href=\"https://competition.thebigbangfair.co.uk\">The Big Bang Fair</a>.<br>All of us study STEM-related subjects, with ambitions to go into Engineering, Architecture, and other STEM fields at University."
+    },
+    "team": {
+        "title": "Meet the team",
+        "text": "Although we all helped in all areas of the competitions, our specialisms are shown below.",
+        "hugh": {
+            "image": "team/hugh.jpg",
+            "name": "Hugh Anstee",
+            "text": "As Team Leader, it is my responsibility to make sure that the whole team runs smoothly and is ready for our competition days.<br><br>I am experienced in Computational Fluid Dynamics, so was responsible for analysing the car's aerodynamic performance."
+        },
+        "jensen": {
+            "image": "team/jensen.jpg",
+            "name": "Jensen Hoy",
+            "text": "As Sponsorship and Marketing Manager, it is my job to contact companies and organisations to find sponsors and generate awareness of our team and its goals.<br><br>I am also responsible for managing our social media accounts and other marketing strategies."
+        },
+        "harvey": {
+            "image": "team/harvey.jpg",
+            "name": "Harvey Elson",
+            "text": "As Finance Manager, I collaborated heavily with Team Manager Hugh and Sponsorship and Marketing Manager Jensen. I made sure that any money we received was distributed effectively.<br><br>Doing this allowed us to enter multiple competitions and have a relevantly sized budget to be able to compete effectively in them all."
+        },
+        "zachary": {
+            "image": "team/zachary.jpg",
+            "name": "Zachary Cliff",
+            "text": "As Manufacture Engineer, I am responsible for researching and advising the team on the best production methods for our Formula 1 car, which is mainly to be made via a CNC machine."
+        },
+        "hemanth": {
+            "image": "team/hemanth.jpg",
+            "name": "Hemanth Ramkumar",
+            "text": "As Design Engineer, I am responsible for leading the design of the car and making sure that it fits the extensive technical regulations.<br><br>I collaborated heavily with the rest of the team to turn their ideas into the best car possible and Team Leader Hugh for virtual wind tunnelling."
+        },
+        "elizabeth": {
+            "image": "team/elizabeth.jpg",
+            "name": "Elizabeth Dyer",
+            "text": "As Graphic Designer, I am responsible for designing our logo and other team art featured on our website and Instagram account. To do this, I collaborated with website designer Zachary.<br><br>I am also responsible for designing the decals for our car and pit display for the F1 in Schools competition."
+        }
+    },
+    "comps": {
+        "title": "Competitions",
+        "f1": {
+            "image": "comps/f1.png",
+            "text": "We are pleased to announce that we have entered the F1 in schools competition. In this competition, we design and manufacture a miniature Formula 1 car. We compete with other teams to see which team's car can travel a short distance the fastest! An integral part of the competition is acquiring sponsors, so if you would like to help us on our journey, please <a href=\"#contact\">contact us</a>."
+        },
+        "bbf": {
+            "image": "comps/big-bang-fair-logo.png",
+            "text": "We are pleased to announce that we have entered the <a href=\"https://competition.thebigbangfair.co.uk\">Big Bang Fair</a> competition. Preliminary designs to follow shortly!<br><br>We are going to be focusing on the idea of \"Revolutionising Space Travel\" surrounding the use of <a href=\"https://en.wikipedia.org/wiki/Cyanobacteria\">cyanobacteria</a> (also known as blue-green algae) for air recycling and silica aerogel for aerogel particle capture.<br><br>Cyanobacteria caused the initial oxygenation of Earth's atmosphere, known as the Great Oxygenation Event. Several species, such as spirulina, are also edible, and high in a variety of nutrients. Our project revolves around cultivating these beneficial microbes to provide oxygen to astronauts without the issues of raising plants in space. We are also looking into bringing to light the fascinating material of silica aerogel and how it can develop space travel, exploration and survival."
+        },
+        "esa": {
+            "image": "comps/esa.png",
+            "title": "ESA Cansat",
+            "text": "We are pleased to announce that we have entered the <a href=\"http://www.esa.int/Education/CanSat\">ESA Cansat</a> competition. The competition involves making a miniature satellite within the dimensions of a drinks can.<br><br>We have chosen to design our CanSat to carry out early exploration of an exoplanet. It could, however, also have applications on Earth. Our design centres around photogrammetry: taking photos of the surface of the Earth and building them into a 3D model. To allow us sufficient time for this on our descent, we will be manufacturing a parafoil. We are currently investigating using two-axis control of the parafoil to control our descent. We also plan to carry out the new and revolutionary aerogel particle capture. This uses a material called silica aerogel to obtain particles, which can then be analysed."
+        }
+    },
+    "contact": {
+        "title": "Contact us"
+    }
+}

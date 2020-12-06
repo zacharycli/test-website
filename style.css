@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #a370fa;
+    font-family: 'Quicksand', sans-serif;
+}
+
+main {
+    background-color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffffdd!important;
+}
+
+.nav-link:hover {
+    color: #ffffffff!important;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+.centreText {
+    text-align: center;
+}
+
+.sectionTitle {
+    font-size: 5vw;
+    overflow: hidden;
+    font-weight: lighter;
+    margin-bottom: 2px;
+}
+
+.sectionContent {
+    font-size: 20px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.teamCard {
+    padding: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.card-text {
+    font-size: 1.5vw;
+}
+
+.compsImage {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.card-title-mobile {
+    font-weight: bold;
+    font-size: 10vw;
+}

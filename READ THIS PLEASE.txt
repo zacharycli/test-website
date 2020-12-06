@@ -1,0 +1,36 @@
+If you look in extras.js, there is an image that needs to be replaced
+that has not yet been made at the time of writing. The image on line
+6 should be a version of the logo without any background or text - just
+the infinity symbol, probably in white. Other than that, this is 
+finished.
+
+You can edit the contents of the page by editing content.json. All of
+the text that gets displayed on the page can be edited from there.
+The navbar and footer can be edited from extras.js.
+
+You can have as many or as few news things as you like, all the data
+that makes them up is in content.json under the "news" array. The number
+that get displayed will adjust to the number of array elements.
+
+Oh, and the fact that modals don't pop up on mobile is intentional -
+they completely break on mobile, so I stopped them from being accessible
+on mobile to prevent the screen randomly getting faded and then the
+site becming unusable. 
+
+If you want to look at it locally, you'll have to use something like
+XAMPP (https://www.apachefriends.org/index.html), as it needs to be
+run on a webserver to be used. Although, it'll tell you that if you
+try to run it without doing so.
+
+Don't put "click to read more" at the end of news post things, this is
+done automatically depending on whether or not you can actually click
+to see more (eg, not on mobile).
+
+I've put proper meta tags in there, so you should get a nicer preview
+thing in programs like Skype, Discord and Teams.
+
+Think that's everything, if there are any issues just contact me.
+
+Approved by Hugh™
+
+- George
